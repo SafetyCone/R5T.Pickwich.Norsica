@@ -6,13 +6,13 @@ using R5T.Pickwich.Types;
 
 namespace R5T.Pickwich.Norsica
 {
-    public class VisualStudioProjectFileOperator : IVisualStudioProjectFileOperator
+    public class DotnetVisualStudioProjectFileOperator : IVisualStudioProjectFileOperator
     {
         private IDotnetOperator DotnetOperator { get; }
         private IVisualStudioProjectFilePathProvider VisualStudioProjectFilePathProvider { get; }
 
 
-        public VisualStudioProjectFileOperator(IDotnetOperator dotnetOperator, IVisualStudioProjectFilePathProvider visualStudioProjectFilePathProvider)
+        public DotnetVisualStudioProjectFileOperator(IDotnetOperator dotnetOperator, IVisualStudioProjectFilePathProvider visualStudioProjectFilePathProvider)
         {
             this.DotnetOperator = dotnetOperator;
             this.VisualStudioProjectFilePathProvider = visualStudioProjectFilePathProvider;
