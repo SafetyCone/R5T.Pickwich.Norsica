@@ -4,4 +4,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Norsica.Standard\source\R5T.Norsica.Standard\R5T.Norsica.Standard.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Pickwich.Base\source\R5T.Pickwich.Base\R5T.Pickwich.Base.csproj" />
+  </ItemGroup>
 </Project>
