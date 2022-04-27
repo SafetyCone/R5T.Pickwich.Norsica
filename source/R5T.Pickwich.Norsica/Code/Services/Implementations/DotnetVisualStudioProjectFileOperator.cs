@@ -1,12 +1,12 @@
-﻿using System;
+using System;
 
 using R5T.Norsica;
-using R5T.Pickwich.Types;
+using R5T.Pickwich.Types;using R5T.T0064;
 
 
 namespace R5T.Pickwich.Norsica
-{
-    public class DotnetVisualStudioProjectFileOperator : IVisualStudioProjectFileOperator
+{[ServiceImplementationMarker]
+    public class DotnetVisualStudioProjectFileOperator : IVisualStudioProjectFileOperator,IServiceImplementation
     {
         private IDotnetOperator DotnetOperator { get; }
         private IVisualStudioProjectFilePathProvider VisualStudioProjectFilePathProvider { get; }
