@@ -22,7 +22,7 @@ namespace R5T.Pickwich.Norsica
                     return "mstest";
 
                 default:
-                    throw new Exception(EnumHelper.UnexpectedEnumerationValueMessage(projectType));
+                    throw new Exception(EnumerationHelper.UnexpectedEnumerationValueMessage(projectType));
             }
         }
     }
